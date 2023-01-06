@@ -86,3 +86,31 @@ header{
     font-size: 16px;
     color: #444343;
 }
+
+.plans-section h2{
+    text-align: center;
+    margin: 100px 230px;
+}
+.plans-section h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan{
+    text-align: center;
+}
+.plan-title{
+    margin: 10px 0px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
