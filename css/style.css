@@ -49,3 +49,40 @@ header{
     font-size: 20px;
     border-radius: 10px;
 }
+
+/* Main Sections */
+
+/* Failure Section */
+
+.failures{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fail-image{
+    /* margin-left: 100px; */
+    /* margin-right: 87px; */
+}
+.fail-content{
+    margin-top: 100px;
+    margin-right: 250px;
+}
+.fail-title{
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.fail-description{
+    width: 416px;
+    height: 104px;
+    margin-top: 24px;
+    color: #444343;
+}
+
+.failures li{
+    list-style: none;
+    font-size: 16px;
+    color: #444343;
+}
