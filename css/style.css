@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Work+Sans&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Banner Styles */
@@ -18,7 +21,7 @@ header{
 }
 .banner-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .banner-content{
@@ -41,13 +44,16 @@ header{
 }
 .contact-button{
     margin-top: 32px;
-    background-color: royalblue;
+    background-color: #FD6E0A;
     padding: 21px 25px;
-    margin-left: 400px;
+    margin-left: 370px;
     color: white;
     font-weight: 600;
     font-size: 20px;
     border-radius: 10px;
+    width: 160px;
+    height: 64px;
+    border: 0 solid white;
 }
 
 /* Main Sections */
@@ -87,14 +93,23 @@ header{
     color: #444343;
 }
 
+.failures ul li i{
+    margin-right: 10px;
+    color: #06f106;
+}
+
+/* Plans section */
 .plans-section h2{
     text-align: center;
     margin: 100px 230px;
+    width: 1141px;
 }
 .plans-section h2{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    text-align: center;
+    margin-left: 400px;
 }
 .plans{
     display: flex;
@@ -108,6 +123,7 @@ header{
     font-weight: 700;
     font-size: 30px;
     color: #151414;
+    
 }
 .plan p{
     font-weight: 500;
@@ -115,10 +131,77 @@ header{
     color: #737272;
 }
 
+/* Positive section styles */
+
+.positive-section{
+    /* width: 1141px; */
+    height: 300px;
+    margin: 100px 230px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-blend-mode: screen;
+    background-size: cover;
+    /* border: 0px solid white; */
+    border-radius: 5px;;
+}
+
+.positive-title{
+    
+    margin-left: 64px;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    height: 64px;
+    color: #fff;
+}
+
+.call-button{
+    margin-left: 64px;
+    margin-top: 50px;
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px solid white;
+    padding: 20px 36px;
+}
+
+/* Achievment section */
+
+.achievment{
+    background-color: darkgrey;
+    color: #fff;
+    width: 1141px;
+    height: fit-content;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.achievment h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+.achievment li{
+    list-style: none;
+    margin-left: 480px;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+.achievment li i{
+    margin-right: 5px;
+    color: crimson;
+}
 
 /* Footer Sttyles */
 
 .footer{
+    margin-top: 15px;
     display: flex;
     justify-content: space-evenly;
     background: #151414;
@@ -166,10 +249,10 @@ header{
 }
 .subscribe-button{
     margin-top: 32px;
-    background-color: royalblue;
+    background-color: #fff;
     padding: 21px 25px;
     
-    color: white;
+    color: #FD6E0A;
     font-weight: 600;
     font-size: 20px;
     border-radius: 10px;
