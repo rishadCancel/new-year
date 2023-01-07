@@ -137,7 +137,7 @@ header{
     /* width: 1141px; */
     height: 300px;
     margin: 100px 230px;
-    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-image: url("../images/gradient2.png"), url("../images/watch.png");
     background-blend-mode: screen;
     background-size: cover;
     /* border: 0px solid white; */
