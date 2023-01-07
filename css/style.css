@@ -207,10 +207,11 @@ header{
     background: #151414;
     color: white;
     
+    
 }
 .div-one{
-    height: 485px;
-    width: 317px;
+    height: 550px;
+    width: 350px;
 }
 .footer-title{
     margin-top: 130px;
@@ -233,9 +234,11 @@ header{
     justify-content: flex-start;
     margin-top: 32px;
     
+    
 }
 .media img{
     margin-right: 17px;
+    margin-bottom: 50px;
 }
 .footer-title{
     margin-bottom: 32px;
