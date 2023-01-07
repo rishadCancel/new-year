@@ -85,6 +85,7 @@ header{
     height: 104px;
     margin-top: 24px;
     color: #444343;
+    margin-bottom: 25px;
 }
 
 .failures li{
@@ -141,7 +142,7 @@ header{
     background-blend-mode: screen;
     background-size: cover;
     /* border: 0px solid white; */
-    border-radius: 5px;;
+    border-radius: 5px;
 }
 
 .positive-title{
@@ -183,14 +184,11 @@ header{
     font-size: 40px;
 }
 
-
-
 .achievment li{
     list-style: none;
     margin-left: 480px;
     font-size: 16px;
-    line-height: 26px;
-    
+    line-height: 26px;  
 }
 
 .achievment li i{
@@ -201,16 +199,14 @@ header{
 /* Footer Sttyles */
 
 .footer{
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-evenly;
     background: #151414;
-    color: white;
-    
-    
+    color: white;    
 }
 .div-one{
-    height: 550px;
+    height: 570px;
     width: 350px;
 }
 .footer-title{
@@ -232,9 +228,7 @@ header{
 .media{
     display: flex;
     justify-content: flex-start;
-    margin-top: 32px;
-    
-    
+    margin-top: 32px;    
 }
 .media img{
     margin-right: 17px;
@@ -245,10 +239,12 @@ header{
 }
 .subscribe-email{
     margin-bottom: 20px;
-    padding: 20px 100px 20px 5px;
+    padding: 20px 100px 20px 20px;
     background-color: #151414;
     color: #fff;
     border-radius: 5px;
+    border: 1px solid white;
+    font-size: 20px;
 }
 .subscribe-button{
     margin-top: 32px;
